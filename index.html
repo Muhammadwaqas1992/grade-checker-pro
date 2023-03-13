@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div id="heading" >
+    <h1>GRADE CALCULATOR</h1>
+    </div>
+    <br>
+
+    <div  id="num1">
+        <input id="percentage" type="text" placeholder=" Enter Percentage">
+    </div>
+    <br>
+    <div id="num2">
+        <button id="button">LETS CHECK</button>
+    </div>
+    <br>
+    <div>
+        <p id="showData"></p>
+    </div>
+    <script>
+        let percentage = document.querySelector('#percentage');
+        let button = document.querySelector('#button');
+        button.onclick = function () {
+            switch (true) {
+                case percentage.value < 0:
+                    document.write('Please enter a valid value 0 to 100.');
+                    break;
+                case percentage.value == "":
+                    grade = ('Not filled , enter your percentage.');
+                    break;
+                case percentage.value >= 0 && percentage.value < 50:
+                    grade = (' Sorry! You are failed.');
+                    break;
+                case percentage.value >= 50 && percentage.value < 60:
+                    grade = ('You have achieved a "C" grade.');
+                    break;
+                case percentage.value >= 60 && percentage.value < 70:
+                    grade = ('You have achieved a "B" grade.');
+                    break;
+                case percentage.value >= 70 && percentage.value < 80:
+                    grade = ('Congratulation!You have achieved an "A" grade.');
+                    break;
+                case percentage.value >= 80 && percentage.value <= 100:
+                    grade = ('Congratulation!You have achieved an "A1" grade.');
+                    break;
+                default:
+                    grade = ('Please enter a valid value 0 to 100..');
+                    break;
+            }
+            document.getElementById("showData").innerHTML = ` ${grade}.`
+
+        };
+
+
+    </script>
+</body>
+
+</html>

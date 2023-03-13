@@ -1,0 +1,221 @@
+@media(max-width: 320px) {
+    #percentage {
+        width: 50px;
+        height: 10px;
+        font-size: 10px;
+        margin-top: 100px;
+        margin-left: -380px;
+    }
+    #button{
+        margin-left: -390px; 
+    }
+    div #showData{
+        /* margin-left: -100px; */
+        /* text-align: center; */
+        /* padding-left: 150px; */
+        /* font-size: 4px; */
+    }
+    
+    #heading h1 {
+        /* background-color: brown; */
+        font-family: sans-serif;
+        color: white;
+        font-size: 30px;
+        margin-right: -260px;
+        padding: 20px 30px 20px 30px;
+        
+    
+    }
+    
+    
+
+}
+@media(min-width: 321px) and (max-width: 375px){
+    #percentage {
+        width: 50px;
+        height: 10px;
+        font-size: 10px;
+        margin-top: 100px;
+        margin-left: -380px;
+    }
+    #button{
+        margin-left: -380px; 
+    }
+    div #showData{
+        margin-left: 100px;
+        text-align: center;
+        /* padding-left: -150px; */
+        font-size: 20px;
+    }
+    
+    #heading h1 {
+        /* background-color: brown; */
+        font-family: sans-serif;
+        color: white;
+        font-size: 30px;
+        margin-right: -260px;
+        padding: 20px 20px 20px 20px;
+        
+    
+    }
+
+}
+
+
+@media(min-width: 376px) and (max-width: 425px) {
+    #percentage {
+        width: 50px;
+        height: 10px;
+        font-size: 10px;
+        margin-top: 100px;
+        margin-left: -380px;
+    }
+    #button{
+        margin-left: -380px; 
+    }
+    div #showData{
+        margin-left: 20px;
+        text-align: center;
+        padding-left: 150px;
+        font-size: 20px;
+    }
+    
+    #heading h1 {
+        /* background-color: brown; */
+        font-family: sans-serif;
+        color: white;
+        font-size: 30px;
+        margin-right: -260px;
+        padding: 20px 20px 20px 20px;
+        
+    
+    }    
+
+}
+
+@media(min-width: 426px) and (max-width: 768px) {
+    #percentage {
+        width: 50px;
+        height: 10px;
+        font-size: 10px;
+        margin-top: 50px;
+        margin-left: -180px;
+    }
+    #button{
+        margin-left: -180px; 
+    }
+    div #showData{
+        margin-left: 60px;
+        text-align: center;
+        padding-left: 150px;
+        font-size: 20px;
+    }
+    
+    #heading h1 {
+        /* background-color: brown; */
+        font-family: sans-serif;
+        color: white;
+        font-size: 30px;
+        margin-right: -260px;
+        padding: 20px 20px 20px 20px;
+        
+    
+    }    
+
+}
+@media(min-width: 769px) and (max-width: 1024px) {
+    #percentage {
+        width: 50px;
+        height: 10px;
+        font-size: 10px;
+        margin-top: 50px;
+        margin-left: -20px;
+    }
+    #button{
+        margin-left: -20px; 
+    }
+    div #showData{
+        margin-left: 120px;
+        text-align: center;
+        padding-left: 150px;
+        font-size: 20px;
+    }
+    
+    #heading h1 {
+        /* background-color: brown; */
+        font-family: sans-serif;
+        color: white;
+        font-size: 30px;
+        margin-right: -260px;
+        padding: 20px 20px 20px 20px;
+        
+    
+    }    
+
+}
+
+body {
+    margin: 0;
+}
+
+/* #heading{
+    padding: 0px 600px 0px 600px;
+    background-color: brown;
+} */
+
+
+#num1 {
+    margin-top: 100px;
+    margin-left: 510px;
+
+}
+
+#num2 {
+    margin-top: 3px;
+    margin-left: 630px;
+
+
+}
+
+#percentage {
+    width: 330px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 40px;
+    color: brown;
+}
+
+#button {
+    color: white;
+    height: 50px;
+    width: 100px;
+    outline: none;
+    background-color: brown;
+    border-radius: 50px;
+    /* margin-top: 250px;
+    margin-right: 100px; */
+
+
+}
+#button:hover{
+    color: orange;
+    background-color: black;
+}
+
+h1 {
+    background-color: brown;
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+
+}
+
+#showData {
+    color: brown;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 800;
+    margin-left: 530px;
+}
